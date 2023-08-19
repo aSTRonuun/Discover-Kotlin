@@ -13,8 +13,8 @@ fun invertString(str: String) : String {
     while (index >= 0) {
         invertedString += str[index]
 
-        index--;
+        index--
     }
 
-    return invertedString;
+    return invertedString
 }

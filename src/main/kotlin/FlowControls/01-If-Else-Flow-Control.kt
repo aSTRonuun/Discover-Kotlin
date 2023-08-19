@@ -1,11 +1,11 @@
 package FlowControls
 
 fun main() {
-    println(IsAdult(18))
-    println(IsAdultUsingReturnIf(18))
+    println(isAdult(18))
+    println(isAdultUsingReturnIf(18))
 }
 
-fun IsAdult(age: Int): Boolean {
+fun isAdult(age: Int): Boolean {
     if (age >= 18) {
         return true
     } else {
@@ -13,7 +13,7 @@ fun IsAdult(age: Int): Boolean {
     }
 }
 
-fun IsAdultUsingReturnIf(age: Int): Boolean {
+fun isAdultUsingReturnIf(age: Int): Boolean {
     return if (age >= 18) {
         true
     } else {

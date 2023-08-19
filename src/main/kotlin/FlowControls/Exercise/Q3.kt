@@ -11,11 +11,11 @@ fun main() {
     println("Enter a integer number C:")
     val c = readLine()!!.toInt()
 
-    if (IsEquilateralTriangle(a, b, c)) {
+    if (isEquilateralTriangle(a, b, c)) {
         println("Is a equilateral triangle")
     } else {
         println("Is not a equilateral triangle")
     }
 }
 
-fun IsEquilateralTriangle(a: Int, b: Int, c: Int) = a == b && b == c
+fun isEquilateralTriangle(a: Int, b: Int, c: Int) = a == b && b == c
